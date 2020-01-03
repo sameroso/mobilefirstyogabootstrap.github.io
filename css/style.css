@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(84, 182, 84);
+}
+
+.whatsapp {
+    height: 100px;
+    width: 100px;
+}
+
+.btn-personalizado {
+    background-color: rgb(144, 238, 144);
+}
+
+@media (min-width: 320px) {
+    .whatsapp {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 375px) {
+    .whatsapp {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (min-width: 500px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 690px) {
+    .yogaflower {
+        float: left;
+    }
+}
