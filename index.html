@@ -10,14 +10,40 @@
       h1{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: center;
+        background-color:rgb(84, 182, 84);
       }
+       .whatsapp {
+        height: 100px;
+        width: 100px;
+      }
+      .btn-personalizado {
+        background-color:rgb(144, 238, 144) ;
+      } 
+
+      @media (min-width: 320px) 
+      {
+        .whatsapp {
+          height: 50px;
+         width: 50px;
+        } 
+      
+      }
+      @media (min-width: 375px) 
+      {
+        .whatsapp {
+          height: 70px;
+         width: 70px;
+        } 
+      
+      }
+
       @media (min-width: 500px) 
       {
         h1 
          {
           font-size: 5rem;
-          background-color: rgb(0,250,154);
          }
+      
       }
 
       @media (min-width: 690px) 
@@ -32,17 +58,12 @@
       </style>
   </head>
   <body>
-      <h1 class="bg-success">Marcela Escudeiro Yoga</h1>
-      <div>
-        <a href="https://api.whatsapp.com/send?phone=5531992541715" 
-           target="_blank">
-           <img  class="img-fluid whatsapp" src="images/wppicon.png" alt="link para o whatsapp">
-        </a>
-      </div>
+      <h1>Marcela Escudeiro Yoga</h1>
+      
       <img src="images/desenhomeditacao.jpeg" class="img-fluid" alt="Desenho de uma menina meditando">
       <div class="accordion" id="accordion">
         <div class="card">
-          <div class="card-header" id="headingOne">
+          <div class="card-header btn-personalizado" id="headingOne">
             <h2 class="mb-0">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 O que é Hatha yoga
@@ -67,7 +88,7 @@
                 
         </div>
         <div class="card">
-          <div class="card-header" id="headingTwo">
+          <div class="card-header btn-personalizado" id="headingTwo">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Sobre Mim
@@ -81,7 +102,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="card-header" id="headingThree">
+          <div class="card-header btn-personalizado" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Contato
@@ -90,7 +111,13 @@
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <div>
+                <a href="https://api.whatsapp.com/send?phone=5531992541715" 
+                   target="_blank">
+                   <img  class="img-fluid whatsapp" src="images/wppicon.png" alt="link para o whatsapp">
+                </a>
+              </div>
+            <!-- idatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. -->
             </div>
           </div>
         </div>
