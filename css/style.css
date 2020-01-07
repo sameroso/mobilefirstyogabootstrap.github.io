@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Montserrat', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    background-image: linear-gradient( rgb(121, 208, 230),white);
+    background-image: linear-gradient( rgb(4, 255, 171),white);
 }
 
 .whatsapp {
@@ -10,7 +10,7 @@ h1 {
 }
 
 .btn-personalizado {
-    background-image:linear-gradient(rgb(144, 238, 144), white);
+    background-image:linear-gradient(rgb(4, 255, 171), white);
 }
 
 @media (min-width: 320px) {
