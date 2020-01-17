@@ -13,6 +13,11 @@ h1 {
     background-image:linear-gradient(rgb(89, 190, 156), white);
 }
 
+.container-foto {
+    height: 300px;
+    width: auto;
+}
+
 @media (min-width: 320px) {
     .whatsapp {
         height: 50px;
