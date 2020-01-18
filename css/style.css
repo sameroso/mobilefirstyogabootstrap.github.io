@@ -13,9 +13,17 @@ h1 {
     background-image:linear-gradient(rgb(89, 190, 156), white);
 }
 
+.borda {
+    outline: 1px solid orange;
+    outline-offset: -10px;
+}
 .container-desenho {
     height: 250px;
     width: 250px;
+}
+.tamanho-desenho {
+    object-fit: contain;
+    height: 250px;
 }
 
 
@@ -51,5 +59,5 @@ h1 {
     height: 300px;
 }
 .foto-gravida {
-    object-position: top;
+    object-position: 50% 50%;
 }
