@@ -13,10 +13,11 @@ h1 {
     background-image:linear-gradient(rgb(89, 190, 156), white);
 }
 
-.container-foto {
-    height: 300px;
-    width: auto;
+.container-desenho {
+    height: 2500px;
+    width: 250px;
 }
+
 
 @media (min-width: 320px) {
     .whatsapp {
@@ -42,4 +43,13 @@ h1 {
     .yogaflower {
         float: left;
     }
+}
+
+
+.imagem-carrosel {
+    object-fit: cover;
+    height: 300px;
+}
+.foto-gravida {
+    object-position: top;
 }
