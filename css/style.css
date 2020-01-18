@@ -85,3 +85,6 @@ h1 {
     object-fit: contain;
     height: 160px;
 }
+body{
+    background-color: rgba(160, 224, 208, 0.411);
+}
