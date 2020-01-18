@@ -77,3 +77,11 @@ h1 {
 .cor-fundo-cards {
     background-image: linear-gradient(rgba(157, 117, 231, 0.5), white);
 }
+.container-desenho-perfil {
+    height: 187px;
+    width: 250px;
+}
+.tamanho-desenho-marcela {
+    object-fit: contain;
+    height: 160px;
+}
