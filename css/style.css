@@ -85,3 +85,4 @@ h1 {
     object-fit: contain;
     height: 160px;
 }
+.mobilesOnly {visibility:hidden;}
