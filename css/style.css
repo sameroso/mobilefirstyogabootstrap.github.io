@@ -14,8 +14,11 @@ h1 {
 }
 
 .borda {
-    outline: 1px solid orange;
-    outline-offset: -10px;
+    border: 10px solid rgba(137, 194, 180, 0.411);
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom:0;
+    border-top: unset;
 }
 .container-desenho {
     height: 250px;
@@ -25,8 +28,18 @@ h1 {
     object-fit: contain;
     height: 250px;
 }
-
-
+@media(min-width: 768px) {
+    .borda {
+        padding-bottom: 100px;
+    }
+}
+@media(min-width: 1024px) {
+    .borda {
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 @media (min-width: 320px) {
     .whatsapp {
         height: 50px;
@@ -60,4 +73,7 @@ h1 {
 }
 .foto-gravida {
     object-position: 50% 50%;
+}
+.cor-fundo-cards {
+    background-image: linear-gradient(rgba(157, 117, 231, 0.5), white);
 }
