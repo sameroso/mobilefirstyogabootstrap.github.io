@@ -13,9 +13,34 @@
       <title>Marcela Escudeiro Yoga</title>
   </head>
 
-<body>  
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#yoga">yoga <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hatha">hatha yoga</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#eu">sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
   <div class="container">
-    <div id="carouselExampleCaptions" class="carousel slide tamanho-carrosel" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="margem carousel slide tamanho-carrosel" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -24,23 +49,23 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/carousel1.jpeg" class="d-block w-100 img-fluid imagem-carrosel" alt="mulher fazendo yoga na praia">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div class="carousel-caption d-none d-md-block h-50 bg-images">
+            <h2 class="cor-texto-carousel">Hatha Yoga</h2>
+            <h4 class="cor-texto-carousel">Um caminho de cura e auto conhecimento</h4>
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/carousel2.jpg" class="d-block w-100 img-fluid imagem-carrosel foto-gravida" alt="gravida fazendo yoga">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="carousel-caption d-none d-md-block bg-images">
+            <h2 class="cor-texto-carousel">Yoga Para Gestantes</h5>
+            <h4 class="cor-texto-carousel">Venha descobrir os inúmeros benefícios</h4>
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/carousel3.jpg" class="d-block w-100 img-fluid imagem-carrosel" alt="idosos fazendo yoga">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <div class="carousel-caption d-none d-md-block h-50 bg-images">
+            <h2 class="cor-texto-carousel-idosa">Yoga Para a melhor idade</h4>
+            <h4 class="cor-texto-carousel-idosa">Atividade baixo impacto que proporciona inúmeras vantagens </h4>
           </div>
         </div>
       </div>
@@ -58,25 +83,23 @@
   <div class="container mt-5">
     <div class="row">
 
-      <div class="container col-lg-6 mb-5">
+      <div class="container col-lg-6 mb-5 p-2" id="yoga">
         <h3 class="text-center p-4 cor-fundo-cards">O que é Yoga</h3>
         <div class="borda border-top-0 mt-5">
           <div class="mx-auto">
-            <div class="container-desenho mx-auto float-sm-left">
-              <img src="images/desenhomeditacao.jpeg" class="tamanho-desenho" alt="Desenho de uma menina meditando">
+            <div class="container-desenho mx-auto float-sm-left mb-md-0">
+              <img src="images/h.png" class="tamanho-desenho" alt="Desenho de uma menina meditando">
             </div>
           </div>
           <div>
-            <h5>
-              O Yoga é uma antiga ciência espiritual que proporciona meios diretos para acalmar a
-              turbulência natural dos pensamentos e a agitação do corpo.<br>
-              De forma literal, o termo yoga significa união, e pretende unir mente, corpo e essência.
+            <h5 class="p-1 pt-md-5 mb-md-0">
+              O Yoga é uma antiga ciência espiritual que proporciona meios diretos para acalmar aturbulência natural dos pensamentos e a agitação do corpo.<br>De forma literal, o termo yoga significa união, e pretende unir mente, corpo e essência.
             </h5>
         </div>
         </div>
       </div>
 
-      <div class="container col-lg-6 mb-5">
+      <div class="container col-lg-6 mb-5" id="hatha">
         <h3 class="text-center p-4 cor-fundo-cards">O que é Hatha yoga</h3>
         <div class="borda border-top-0 mt-5">
           <div class="mx-auto">
@@ -84,21 +107,25 @@
               <img src="images/yogaflores.png" class="tamanho-desenho" alt="Desenho de uma menina meditando">
             </div>
           </div>
-          <div>
+          <div class="p-1">
             <h5>
               O yoga possui 6 principais caminhos, sendo eles:<br>
-                            .Jnana(conhecimento/sabedoria)<br>
-                            .Bhakti (devoção)<br> .Tantra (expansão/libertação)<br> .Karma (ação/serviço)<br> .Raja
-                            (caminho
-                            real)<br> <strong>Hatha Yoga (força)</strong> <br><br>
-                            .A Hatha Yoga diz respeito à pratica voltada a saúde e integridade do corpo físico,
-                            tornando-o um veículo saudável para realização dos outros cinco caminhos.
+                <ul>
+                  <li>Jnana(conhecimento)</li>
+                  <li>Bhakti (devoção)</li>
+                  <li>Tantra (expansão/libertação)</li>
+                  <li>Karma (ação/serviço)</li>
+                  <li>Raja (caminho real)</li>
+                  <li><strong>Hatha Yoga (força)</strong></li>
+                </ul>
+                    A Hatha Yoga diz respeito à pratica voltada a saúde e integridade do corpo físico,
+                    tornando-o um veículo saudável para realização dos outros cinco caminhos.
             </h5>
         </div>
         </div>
       </div>
 
-      <div class="container col-lg-6 mb-5">
+      <div class="container col-lg-6 mb-5" id="eu">
         <h3 class="text-center p-4 cor-fundo-cards">Quem sou eu</h3>
         <div class="borda border-top-0 mt-5">
           <div class="mx-auto">
@@ -107,7 +134,7 @@
             </div>
           </div>
           <div>
-            <h5>
+            <h5 class="p-1 pt-md-5 mb-md-0">
               Me chamo Marcela, tenho 27 anos e sou formada em Engenharia Florestal pela UFV.
               Iniciei meu caminho no Yoga em 2016, na busca por uma terapia alternativa à ansiedade e
               depressão, mas acabei por encontrar na prática do Yoga uma terapia definitiva. <br>
@@ -116,13 +143,13 @@
               Yoga e reconhecido pela AMYOGA.
               Hoje meu principal objetivo é ser um veículo dos ensinamentos do Yoga para todos e todas
               que
-              buscam um caminho de auto conhecimento e cura..
+              buscam um caminho de auto conhecimento e cura.
             </h5>
         </div>
         </div>
       </div>
 
-      <div class="container col-lg-6 mb-5">
+      <div class="container col-lg-6 mb-5" id="contato">
         <h3 class="text-center p-4 cor-fundo-cards">Contato</h3>
         <div class="borda border-top-0 mt-5">
           <ul class="d-inline">

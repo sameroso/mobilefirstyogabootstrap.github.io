@@ -17,7 +17,7 @@ h1 {
     border: 10px solid rgba(137, 194, 180, 0.411);
     margin-left: 0;
     margin-right: 0;
-    padding-bottom:0;
+    padding-bottom:10px;
     border-top: unset;
 }
 .container-desenho {
@@ -27,10 +27,11 @@ h1 {
 .tamanho-desenho {
     object-fit: contain;
     height: 250px;
+    width: 250px;
 }
 @media(min-width: 768px) {
     .borda {
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 }
 @media(min-width: 1024px) {
@@ -39,6 +40,7 @@ h1 {
         padding-left: 20px;
         padding-right: 20px;
     }
+
 }
 @media (min-width: 320px) {
     .whatsapp {
@@ -53,19 +55,6 @@ h1 {
         width: 70px;
     }
 }
-
-@media (min-width: 500px) {
-    h1 {
-        font-size: 5rem;
-    }
-}
-
-@media (min-width: 690px) {
-    .yogaflower {
-        float: left;
-    }
-}
-
 
 .imagem-carrosel {
     object-fit: cover;
@@ -87,4 +76,17 @@ h1 {
 }
 body{
     background-color: rgba(160, 224, 208, 0.411);
+}
+.cor-texto-carousel {
+    color: rgb(120, 148, 17);
+}
+.cor-texto-carousel-idosa {
+    color: rgb(18, 75, 0);
+}
+.bg-images {
+    background-color: rgba(29, 31, 29, 0.103);
+    border-radius: 200px;
+}
+.margem {
+    margin-top: 70px;
 }
