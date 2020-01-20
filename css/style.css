@@ -74,8 +74,9 @@ h1 {
     object-fit: contain;
     height: 160px;
 }
-body{
+html,body{
     background-color: rgba(160, 224, 208, 0.411);
+    height: 100%;
 }
 .cor-texto-carousel {
     color: rgb(120, 148, 17);
@@ -89,4 +90,14 @@ body{
 }
 .margem {
     margin-top: 70px;
+}
+
+.background-image {
+    background-image: url('../images/imagem-de-fundo.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+.tamanho-xheader {
+    width: 1000px;
 }
